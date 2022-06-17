@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Arch" type="wsl" uuid="2c82322f-4710-4d53-88fe-32a5475e8e1f">
+        <config>
+          <option name="distributionMsId" value="Arch" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config>
+            <option name="cargoPath" value="/usr/sbin/cargo" />
+            <option name="cargoVersion" value="1.61.0" />
+            <option name="rustcPath" value="/usr/sbin/rustc" />
+            <option name="rustcVersion" value="1.61.0 (Arch Linux rust 1:1.61.0-1)" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
