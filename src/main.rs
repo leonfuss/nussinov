@@ -1,12 +1,6 @@
-use crate::nussinov::Nussinov;
-
-#[macro_use]
-extern crate lazy_static;
-
-mod matrix;
-mod nussinov;
+use nussinov_cli::nussinov::Nussinov;
 
 fn main() {
-    let mut nussinov = Nussinov::new("UAGA", 1);
+    let mut nussinov = Nussinov::new("GGUCCGACGUAAUA", 1);
     nussinov.run();
 }
