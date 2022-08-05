@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-name = "nussinov_cli"
+name = "nussinov"
 path = "src/main.rs"
 
 [lib]
@@ -14,4 +14,5 @@ path = "src/lib.rs"
 
 [dependencies]
 array2d = "0.2"
+clap = { version = "3.2", features = ["derive"] }
 
